@@ -22,3 +22,10 @@ dependencies = [
     "types-pyyaml>=6.0.12.20250915",
     "xgboost>=3.0.5",
 ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
