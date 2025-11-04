@@ -1,9 +1,11 @@
 [project]
 
-name = "end-to-end-ml-project"
+name = "mlProject"
 version = "0.1.0"
-authors = "iristap"
 description = "Learn how to build end to end ML project"
+authors = [
+    {name = "iristap", email = "siripat.srisuwannaphat@gmail.com"},
+]
 readme = "README.md"
 requires-python = ">=3.12"
 
@@ -27,8 +29,5 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["src"]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

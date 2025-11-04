@@ -222,49 +222,6 @@ wheels = [
 ]
 
 [[package]]
-name = "end-to-end-ml-project"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "ensure" },
-    { name = "flask" },
-    { name = "flask-cors" },
-    { name = "ipykernel" },
-    { name = "joblib" },
-    { name = "lightgbm" },
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "python-box" },
-    { name = "pyyaml" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "tqdm" },
-    { name = "types-pyyaml" },
-    { name = "xgboost" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ensure", specifier = ">=1.0.4" },
-    { name = "flask", specifier = ">=3.1.2" },
-    { name = "flask-cors", specifier = ">=6.0.1" },
-    { name = "ipykernel", specifier = ">=7.0.1" },
-    { name = "joblib", specifier = ">=1.5.2" },
-    { name = "lightgbm", specifier = ">=4.6.0" },
-    { name = "matplotlib", specifier = ">=3.10.7" },
-    { name = "numpy", specifier = ">=2.3.4" },
-    { name = "pandas", specifier = ">=2.3.3" },
-    { name = "python-box", specifier = "==6.0.2" },
-    { name = "pyyaml", specifier = ">=6.0.3" },
-    { name = "scikit-learn", specifier = ">=1.7.2" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-    { name = "tqdm", specifier = ">=4.67.1" },
-    { name = "types-pyyaml", specifier = ">=6.0.12.20250915" },
-    { name = "xgboost", specifier = ">=3.0.5" },
-]
-
-[[package]]
 name = "ensure"
 version = "1.0.4"
 source = { registry = "https://pypi.org/simple" }
@@ -700,6 +657,49 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/99/5b/a36a337438a14116b16480db471ad061c36c3694df7c2084a0da7ba538b7/matplotlib_inline-0.1.7.tar.gz", hash = "sha256:8423b23ec666be3d16e16b60bdd8ac4e86e840ebd1dd11a30b9f117f2fa0ab90", size = 8159, upload-time = "2024-04-15T13:44:44.803Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8f/8e/9ad090d3553c280a8060fbf6e24dc1c0c29704ee7d1c372f0c174aa59285/matplotlib_inline-0.1.7-py3-none-any.whl", hash = "sha256:df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca", size = 9899, upload-time = "2024-04-15T13:44:43.265Z" },
+]
+
+[[package]]
+name = "mlproject"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "ensure" },
+    { name = "flask" },
+    { name = "flask-cors" },
+    { name = "ipykernel" },
+    { name = "joblib" },
+    { name = "lightgbm" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "python-box" },
+    { name = "pyyaml" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+    { name = "tqdm" },
+    { name = "types-pyyaml" },
+    { name = "xgboost" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ensure", specifier = ">=1.0.4" },
+    { name = "flask", specifier = ">=3.1.2" },
+    { name = "flask-cors", specifier = ">=6.0.1" },
+    { name = "ipykernel", specifier = ">=7.0.1" },
+    { name = "joblib", specifier = ">=1.5.2" },
+    { name = "lightgbm", specifier = ">=4.6.0" },
+    { name = "matplotlib", specifier = ">=3.10.7" },
+    { name = "numpy", specifier = ">=2.3.4" },
+    { name = "pandas", specifier = ">=2.3.3" },
+    { name = "python-box", specifier = "==6.0.2" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
+    { name = "scikit-learn", specifier = ">=1.7.2" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "tqdm", specifier = ">=4.67.1" },
+    { name = "types-pyyaml", specifier = ">=6.0.12.20250915" },
+    { name = "xgboost", specifier = ">=3.0.5" },
 ]
 
 [[package]]
